@@ -19,3 +19,17 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+
+import React from "react"
+import ReactDOM from "react-dom"
+
+class App extends React.Component {
+  render() {
+    return (<h1>HAZZZZA</h1>)
+  }
+}
+
+ReactDOM.render(
+  <App/>,
+  document.getElementById("count_off")
+)
