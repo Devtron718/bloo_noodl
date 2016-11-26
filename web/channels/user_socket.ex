@@ -3,6 +3,7 @@ defmodule BlooNoodl.UserSocket do
 
   ## Channels
   # channel "room:*", BlooNoodl.RoomChannel
+  channel "lobby", BlooNoodl.LobbyChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket

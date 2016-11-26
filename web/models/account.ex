@@ -6,6 +6,7 @@ defmodule BlooNoodl.Account do
 
     has_many :bots, BlooNoodl.Bot
     has_many :users, BlooNoodl.User
+    has_many :messages, BlooNoodl.Message
     timestamps()
   end
 end
